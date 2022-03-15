@@ -1,0 +1,54 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  width: 1440px;
+  margin: 0;
+  text-align: center;
+  font-family: Outfit, sans-serif;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-weight: bold;
+}
+
+.backplate {
+  border-radius: 20px;
+  height: 530px;
+  width: 330px;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  position: absolute;
+  left: 720px;
+  top: 200px;
+}
+
+.qr-code {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.attribution {
+  position: relative;
+  left: 170px;
+  top: 740px;
+  font-size: 10px;
+}
+
+.paragraph {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.words {
+  height: 70px;
+  width: 280px;
+  margin: auto;
+  padding-top: 20px;
+}
