@@ -1,5 +1,6 @@
 body {
   background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
   width: 1440px;
   margin: 0;
   text-align: center;
@@ -7,16 +8,20 @@ body {
       justify-content: center;
       align-items: center;
       height: 100vh;
+
 }
 
 h1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 p {
   color: hsl(220, 15%, 55%);
-  font-weight: bold;
+  font-size: 15px;
+
 }
 
 .backplate {
@@ -38,13 +43,14 @@ p {
 }
 
 .attribution {
-  position: relative;
   font-size: 10px;
+  display: inline-block;
+  position: relative;
+  top: 275px;
 }
 
 .paragraph {
-  font-size: 15px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .words {
@@ -53,4 +59,3 @@ p {
   margin: auto;
   padding-top: 20px;
 }
-
