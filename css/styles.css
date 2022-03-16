@@ -3,7 +3,10 @@ body {
   width: 1440px;
   margin: 0;
   text-align: center;
-  font-family: Outfit, sans-serif;
+  display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
 }
 
 h1 {
@@ -23,8 +26,8 @@ p {
   background-color: hsl(0, 0%, 100%);
   margin: auto;
   position: absolute;
-  left: 720px;
-  top: 200px;
+
+
 }
 
 .qr-code {
@@ -36,8 +39,6 @@ p {
 
 .attribution {
   position: relative;
-  left: 170px;
-  top: 740px;
   font-size: 10px;
 }
 
@@ -52,3 +53,4 @@ p {
   margin: auto;
   padding-top: 20px;
 }
+
